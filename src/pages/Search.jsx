@@ -21,12 +21,12 @@ const Search = () => {
     <div className="bg-black">
       <Navbar />
       {/* container */}
-      <div className="flex flex-col items-center justify-center px-20 py-5 bg-black">
+      <div className="flex flex-col items-center justify-center py-5 bg-black px-[20px] sm:px-20">
         {/* tv shows card */}
         <div className="flex flex-wrap items-center justify-center w-full my-5">
           {searchedMovies?.results?.map((tvShow, ind) => {
             return (
-              <div key={ind} className="m-2">
+              <div key={ind} className="m-2  w-full sm:w-[250px]">
                 <MovieCard movie={tvShow} />
               </div>
             );
