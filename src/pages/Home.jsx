@@ -38,7 +38,7 @@ const Home = () => {
       )}
       <div className="relative w-full">
         <Navbar />
-        <Hero bgImage={"bg-home"} />
+        <Hero bgImage={"ctm-bg-home"} />
         {/* movie list container-- */}
         <MovieSlider
           movieLists={trendingMovies?.results}

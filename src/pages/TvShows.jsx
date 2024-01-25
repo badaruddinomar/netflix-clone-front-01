@@ -28,7 +28,7 @@ const TvShows = () => {
         <ToastNotification classname={"success"} text={successMsg} />
       )}
       <Navbar />
-      <Hero bgImage={"bg-tvhero"} />
+      <Hero bgImage={"ctm-bg-tvhero"} />
       {/* container-- */}
       <div className="flex flex-col items-center justify-center px-[20px] lg:px-20 py-5 bg-black">
         {/* genres options-- */}

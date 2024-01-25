@@ -37,7 +37,7 @@ const Signup = () => {
   return (
     <>
       {errorMsg && <ToastNotification classname={"error"} text={errorMsg} />}
-      <div className="w-full h-[100vh] bg-hero bg-opacity-30 object-cover bg-no-repeat bg-center bg-cover relative px-[20px] max-h-[auto] overflow-y-auto pb-5">
+      <div className="ctm-bg-hero w-full h-[100vh]  bg-opacity-30 object-cover bg-no-repeat bg-center bg-cover relative px-[20px] max-h-[auto] overflow-y-auto pb-5">
         <Header linkTitle={"Sign In"} linkPath={"/login"} />
         {/* CONTAINER-- */}
         <div className="w-full h-[80vh] max-h-[100vh] flex md:items-center justify-center flex-col z-20">

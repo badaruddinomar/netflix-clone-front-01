@@ -32,7 +32,7 @@ const Login = () => {
     <>
       {errorMsg && <ToastNotification classname={"error"} text={errorMsg} />}
 
-      <div className="bg-hero w-full h-[100vh] max-h-[auto] bg-center bg-cover object-cover px-[20px] overflow-y-auto pb-5">
+      <div className="ctm-bg-hero w-full h-[100vh] max-h-[auto] bg-center bg-cover object-cover px-[20px] overflow-y-auto pb-5">
         {/* logo div-- */}
         <div className="px-[20px] md:[110px] w-full flex items-center overflow-hidden bg-transparent z-50 h-[110px]">
           <img

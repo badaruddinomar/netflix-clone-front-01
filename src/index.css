@@ -13,3 +13,19 @@ body {
   width: 100vw;
   overflow-x: hidden;
 }
+/* ctm stands for custom */
+.ctm-bg-hero {
+  background-image: url("./assets/login.jpg");
+}
+.ctm-bg-home {
+  background-image: url("./assets/home.jpg");
+}
+.ctm-bg-tvhero {
+  background-image: url("./assets/tv-series-hero.jpg");
+}
+.ctm-bg-moviehero {
+  background-image: url("./assets/movie-hero.jpg");
+}
+.ctm-bg-hometitle {
+  background-image: url("./assets/homeTitle.webp");
+}

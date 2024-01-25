@@ -30,7 +30,7 @@ const Movies = () => {
         <ToastNotification classname={"success"} text={successMsg} />
       )}
       <Navbar />
-      <Hero bgImage={"bg-moviehero"} />
+      <Hero bgImage={"ctm-bg-moviehero"} />
       {/* container-- */}
       <div className="flex flex-col items-center justify-center px-[20px] lg:px-20 py-5 bg-black">
         {/* genres options-- */}

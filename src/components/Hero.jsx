@@ -23,7 +23,7 @@ const Hero = ({ bgImage }) => {
       {/* hero container-- */}
       <div className="h-[80vh] px-[20px] py-[100px] md:py-0">
         <div className="h-[300px] px-[20px] lg:px-20 mt-10 hidden md:block">
-          <div className="z-20 hidden object-cover w-full h-full bg-no-repeat bg-hometitle md:block"></div>
+          <div className="z-20 hidden object-cover w-full h-full bg-no-repeat ctm-bg-hometitle md:block"></div>
         </div>
         <div>
           <h1 className="font-ternary text-[40px] font-bold md:hidden block my-5 text-white">
