@@ -4,11 +4,11 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        hero: "url('./src/assets/login.jpg')",
-        home: "url(./src/assets/home.jpg)",
-        hometitle: "url('./src/assets/homeTitle.webp')",
-        moviehero: "url('./src/assets/movie-hero.jpg')",
-        tvhero: "url('./src/assets/tv-series-hero.jpg')",
+        hero: "url('/frontend/src/assets/login.jpg')",
+        home: "url(/frontend/src/assets/home.jpg)",
+        hometitle: "url('/frontend/src/assets/homeTitle.webp')",
+        moviehero: "url('/frontend/src/assets/movie-hero.jpg')",
+        tvhero: "url('/frontend/src/assets/tv-series-hero.jpg')",
       },
     },
     fontFamily: {
