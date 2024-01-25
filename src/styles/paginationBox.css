@@ -1,0 +1,43 @@
+.ctm-pagination-box {
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ctm-pagination-box .pagination {
+  display: flex;
+  align-items: center;
+  transition: all 0.23s;
+}
+.ctm-pagination-box .pagination .page-item {
+  padding: 10px 15px;
+  border: 1px solid white;
+  margin: 20px 0;
+  cursor: pointer;
+  border-right: none;
+}
+.ctm-pagination-box .pagination .page-item:last-child {
+  border: 1px solid white;
+}
+
+.ctm-pagination-box .pagination .page-item a {
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+.pageItemActive {
+  background: rgb(225, 45, 45);
+  transition: all 0.23s;
+}
+.pageItemActive a {
+  color: white;
+}
+
+@media (max-width: 640px) {
+  .ctm-pagination-box .pagination .page-item {
+    padding: 8px 10px;
+  }
+  .ctm-pagination-box .pagination .page-item a {
+    font-size: 14px;
+  }
+}
