@@ -25,7 +25,7 @@ const ToastNotification = ({ classname, text }) => {
     <div
       className={`${
         classname === "success" ? "translate-x-0" : "translate-x-0"
-      } z-[100] fixed top-[100px] right-0 px-[20px] py-[15px] bg-black min-w-[200px] transition-all translate-x-[100%] rounded-l-md flex items-center text-center }`}
+      } z-[100] fixed top-[100px] right-0 px-[20px] py-[15px] bg-black min-w-[200px] transition-all translate-x-[0%] rounded-l-md flex items-center text-center }`}
     >
       {classname === "success" ? (
         <CheckCircleOutlineIcon style={{ color: "#50e050" }} />

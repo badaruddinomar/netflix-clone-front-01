@@ -34,7 +34,6 @@ const Signup = () => {
       console.log(err);
     }
   };
-  console.log(errorMsg);
   return (
     <>
       {errorMsg && <ToastNotification classname={"error"} text={errorMsg} />}
