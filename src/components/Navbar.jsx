@@ -114,7 +114,7 @@ const Navbar = () => {
               onChange={(e) => setSearchValue(e.target.value)}
               className={`${
                 searchShow ? "visible opacity-100" : "invisible opacity-0"
-              } flex-1 w-[80%] h-full border-none outline-none transition-all bg-transparent text-white`}
+              } flex-1 w-[75%] h-full border-none outline-none transition-all bg-transparent text-white`}
             />
             <SearchIcon
               style={{
