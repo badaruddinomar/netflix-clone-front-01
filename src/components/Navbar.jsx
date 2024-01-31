@@ -139,7 +139,7 @@ const Navbar = () => {
           />
         </div>
         {/* humburger for mobile device-- */}
-        <div className="block lg:hidden ">
+        <div className={`block lg:hidden ${searchShow ? "hidden" : "block"}`}>
           {menuToggle ? (
             <CloseIcon
               style={{ color: "white", cursor: "pointer" }}
